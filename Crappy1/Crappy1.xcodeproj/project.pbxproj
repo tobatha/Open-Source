@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12000D00160043FA006C6B8D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12000CFF160043FA006C6B8D /* ViewController.xib */; };
+		12000D021600442B006C6B8D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12000D011600442B006C6B8D /* SecondViewController.xib */; };
+		12000D041600443B006C6B8D /* CondoDetailPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12000D031600443B006C6B8D /* CondoDetailPageViewController.xib */; };
+		12C5F61715FEDFAF004464BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C5F61615FEDFAF004464BD /* UIKit.framework */; };
+		12C5F61915FEDFAF004464BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C5F61815FEDFAF004464BD /* Foundation.framework */; };
+		12C5F61B15FEDFAF004464BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C5F61A15FEDFAF004464BD /* CoreGraphics.framework */; };
+		12C5F62115FEDFAF004464BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12C5F61F15FEDFAF004464BD /* InfoPlist.strings */; };
+		12C5F62315FEDFAF004464BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C5F62215FEDFAF004464BD /* main.m */; };
+		12C5F62715FEDFAF004464BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C5F62615FEDFAF004464BD /* AppDelegate.m */; };
+		12C5F62A15FEDFAF004464BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C5F62915FEDFAF004464BD /* ViewController.m */; };
+		12C5F63615FEE350004464BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C5F63415FEE350004464BD /* SecondViewController.m */; };
+		12C5F63B15FEE5A4004464BD /* CondoDetailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C5F63915FEE5A4004464BD /* CondoDetailPageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12000CFF160043FA006C6B8D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		12000D011600442B006C6B8D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		12000D031600443B006C6B8D /* CondoDetailPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CondoDetailPageViewController.xib; sourceTree = "<group>"; };
+		12C5F61215FEDFAF004464BD /* Crappy1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crappy1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C5F61615FEDFAF004464BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12C5F61815FEDFAF004464BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12C5F61A15FEDFAF004464BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12C5F61E15FEDFAF004464BD /* Crappy1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crappy1-Info.plist"; sourceTree = "<group>"; };
+		12C5F62015FEDFAF004464BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12C5F62215FEDFAF004464BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12C5F62415FEDFAF004464BD /* Crappy1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crappy1-Prefix.pch"; sourceTree = "<group>"; };
+		12C5F62515FEDFAF004464BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12C5F62615FEDFAF004464BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12C5F62815FEDFAF004464BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12C5F62915FEDFAF004464BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12C5F63315FEE350004464BD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		12C5F63415FEE350004464BD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		12C5F63815FEE5A3004464BD /* CondoDetailPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CondoDetailPageViewController.h; sourceTree = "<group>"; };
+		12C5F63915FEE5A4004464BD /* CondoDetailPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CondoDetailPageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C5F60F15FEDFAF004464BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C5F61715FEDFAF004464BD /* UIKit.framework in Frameworks */,
+				12C5F61915FEDFAF004464BD /* Foundation.framework in Frameworks */,
+				12C5F61B15FEDFAF004464BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C5F60715FEDFAF004464BD = {
+			isa = PBXGroup;
+			children = (
+				12C5F61C15FEDFAF004464BD /* Crappy1 */,
+				12C5F61515FEDFAF004464BD /* Frameworks */,
+				12C5F61315FEDFAF004464BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C5F61315FEDFAF004464BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C5F61215FEDFAF004464BD /* Crappy1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C5F61515FEDFAF004464BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C5F61615FEDFAF004464BD /* UIKit.framework */,
+				12C5F61815FEDFAF004464BD /* Foundation.framework */,
+				12C5F61A15FEDFAF004464BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12C5F61C15FEDFAF004464BD /* Crappy1 */ = {
+			isa = PBXGroup;
+			children = (
+				12C5F62515FEDFAF004464BD /* AppDelegate.h */,
+				12C5F62615FEDFAF004464BD /* AppDelegate.m */,
+				12C5F62815FEDFAF004464BD /* ViewController.h */,
+				12C5F62915FEDFAF004464BD /* ViewController.m */,
+				12000CFF160043FA006C6B8D /* ViewController.xib */,
+				12C5F61D15FEDFAF004464BD /* Supporting Files */,
+				12C5F63315FEE350004464BD /* SecondViewController.h */,
+				12C5F63415FEE350004464BD /* SecondViewController.m */,
+				12000D011600442B006C6B8D /* SecondViewController.xib */,
+				12C5F63815FEE5A3004464BD /* CondoDetailPageViewController.h */,
+				12C5F63915FEE5A4004464BD /* CondoDetailPageViewController.m */,
+				12000D031600443B006C6B8D /* CondoDetailPageViewController.xib */,
+			);
+			path = Crappy1;
+			sourceTree = "<group>";
+		};
+		12C5F61D15FEDFAF004464BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12C5F61E15FEDFAF004464BD /* Crappy1-Info.plist */,
+				12C5F61F15FEDFAF004464BD /* InfoPlist.strings */,
+				12C5F62215FEDFAF004464BD /* main.m */,
+				12C5F62415FEDFAF004464BD /* Crappy1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C5F61115FEDFAF004464BD /* Crappy1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C5F63015FEDFAF004464BD /* Build configuration list for PBXNativeTarget "Crappy1" */;
+			buildPhases = (
+				12C5F60E15FEDFAF004464BD /* Sources */,
+				12C5F60F15FEDFAF004464BD /* Frameworks */,
+				12C5F61015FEDFAF004464BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crappy1;
+			productName = Crappy1;
+			productReference = 12C5F61215FEDFAF004464BD /* Crappy1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C5F60915FEDFAF004464BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "LIANG johnny";
+			};
+			buildConfigurationList = 12C5F60C15FEDFAF004464BD /* Build configuration list for PBXProject "Crappy1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12C5F60715FEDFAF004464BD;
+			productRefGroup = 12C5F61315FEDFAF004464BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C5F61115FEDFAF004464BD /* Crappy1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C5F61015FEDFAF004464BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C5F62115FEDFAF004464BD /* InfoPlist.strings in Resources */,
+				12000D00160043FA006C6B8D /* ViewController.xib in Resources */,
+				12000D021600442B006C6B8D /* SecondViewController.xib in Resources */,
+				12000D041600443B006C6B8D /* CondoDetailPageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C5F60E15FEDFAF004464BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C5F62315FEDFAF004464BD /* main.m in Sources */,
+				12C5F62715FEDFAF004464BD /* AppDelegate.m in Sources */,
+				12C5F62A15FEDFAF004464BD /* ViewController.m in Sources */,
+				12C5F63615FEE350004464BD /* SecondViewController.m in Sources */,
+				12C5F63B15FEE5A4004464BD /* CondoDetailPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12C5F61F15FEDFAF004464BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C5F62015FEDFAF004464BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C5F62E15FEDFAF004464BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12C5F62F15FEDFAF004464BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C5F63115FEDFAF004464BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crappy1/Crappy1-Prefix.pch";
+				INFOPLIST_FILE = "Crappy1/Crappy1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12C5F63215FEDFAF004464BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crappy1/Crappy1-Prefix.pch";
+				INFOPLIST_FILE = "Crappy1/Crappy1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C5F60C15FEDFAF004464BD /* Build configuration list for PBXProject "Crappy1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C5F62E15FEDFAF004464BD /* Debug */,
+				12C5F62F15FEDFAF004464BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C5F63015FEDFAF004464BD /* Build configuration list for PBXNativeTarget "Crappy1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C5F63115FEDFAF004464BD /* Debug */,
+				12C5F63215FEDFAF004464BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C5F60915FEDFAF004464BD /* Project object */;
+}
